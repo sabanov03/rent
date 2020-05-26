@@ -1,0 +1,13 @@
+class rent:
+  def __init__(self,car,bicycle):
+    self.car=car
+    self.bicycle=bicycle
+class bicycle(rent):
+  def __init__(self):
+    self.name="Bicycle"
+class car(rent):
+  def __init__(self):
+    self.name="car"
+class choice(rent):
+  def __init__choice(self,car,bicycle):
+  
